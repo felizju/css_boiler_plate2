@@ -35,7 +35,7 @@ header .inner-header {
 }
 
 header .inner-header .logo {
-    /* background: greenyellow; */
+    /* background: greenyellow;  */
     flex: 1;
 }
 header .inner-header .logo a {
