@@ -48,5 +48,14 @@ function changeFixHeader(scrollTop){
 
         // 헤더 변경 처리
         changeFixHeader(scrollTop);
+   
+        // go-top 스크롤 부드럽게 처리
+        document.querySelector('.go-top').addEventListener('click',e => {
+            // jQuery animate 함수 : 애니메이션의 종류나 속도 지정
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1200);
+        });
+   
     });
 }());
